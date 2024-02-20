@@ -55,6 +55,7 @@ const classList = Array.from(event.target.classList).includes("delete");
 });
 
 formSearch.addEventListener("input", (event) => {
+    event.preventDefault()
 const inputValue = event.target.value.trim().toLowerCase();
     addHidden(inputValue, "hidden", "d-flex");
     removeHidden(inputValue, "d-flex", "hidden");
