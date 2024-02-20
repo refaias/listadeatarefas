@@ -1,0 +1,51 @@
+body { 
+  background: linear-gradient(to top, rgb(255, 255, 255), rgb(27, 77, 111));
+  overflow-x: hidden;
+  
+}
+
+.container {
+font-size: large;
+font-weight: 600;
+max-width: 500px;
+}
+
+input[type=text],
+input[type=text]:focus {
+color: #fff;
+border: none;
+background: rgba(0,0,0,0.2);
+max-width: 400px;
+}
+
+.todos-container li {
+background: #484E53;
+}
+
+.delete {
+cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+.todos-container{
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+
+
+h1.mb-4 { 
+color:#b7b5b5e3;
+font-size: 50px;
+padding: 20px;
+}
+
+
+
+label.text-light {
+  font-weight: 700;
+}
+
